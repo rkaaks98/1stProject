@@ -1,0 +1,114 @@
+main {
+  width: 100%;
+  height: auto;
+}
+
+#wrapper > main > .page-banner {
+  width: 980px;
+  height: 100%;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+#wrapper .page-banner > div {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+main > .page-banner > div > img:nth-child(2) {
+  z-index: 10;
+  position: absolute;
+  bottom: 10px;
+  left: 20px;
+}
+
+/*main > .container*/
+main > .container {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+main > .container > article {
+  width: 980px;
+  height: auto;
+  margin: 0 auto;
+}
+main > .container .side-menu {
+  float: left;
+  width: 180px;
+  height: 650px;
+}
+
+main > .container .side-content {
+  float: left;
+  width: 170px;
+  height: 230px;
+  background: url(/farmstory/images/sub_aside_bg_lnb.png) no-repeat;
+}
+
+main > .container .line {
+  position: relative;
+  top: -50px;
+  right: 0;
+}
+
+main > .container .side-title {
+  width: auto;
+  height: auto;
+  padding: 15px;
+}
+
+main > .container .side-content {
+  padding-top: 27px;
+}
+
+main > .container .side-content a {
+  display: inline-block;
+  width: 177px;
+  height: 30px;
+}
+
+main > .container .content-area {
+  float: right;
+  width: 800px;
+  height: 100%;
+  padding: 40px;
+  box-sizing: border-box;
+}
+
+main > .container .content-area .content-title {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #c2c2c2;
+  margin-bottom: 45px;
+}
+
+main > .container .content-area .content-title > span {
+  float: right;
+  margin-top: 8px;
+  margin-right: 10px;
+  font-size: 14px;
+}
+
+main > .container .content-area .content-title > span::before {
+  content: url(/farmstory/images/sub_page_nav_ico.gif);
+}
+
+main > .container .content-area .content-title > span a {
+  color: #8c8c8c;
+}
+
+main > .container .content-area .content-title > span a:nth-child(3) {
+  color: #91ba23;
+  font-weight: bolder;
+}
+
+main > .container .content-area .content > img {
+  width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  overflow: hidden;
+}

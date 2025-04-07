@@ -1,0 +1,286 @@
+/*초기화*/
+* {
+  margin: 0;
+  padding: 0;
+}
+ul,
+ol {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #111;
+}
+input {
+  outline: none;
+}
+
+#wrapper {
+  width: 980px;
+  height: 1376.75px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+h2 {
+  margin-left: 40px;
+}
+main {
+  position: relative;
+  width: 980px;
+  height: 1120px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+main > .background {
+  width: 980px;
+  height: 184px;
+}
+main > .background div:nth-child(2) {
+  position: absolute;
+  top: 140px;
+}
+main > .background div:nth-child(1) {
+  position: relative;
+}
+
+main > aside {
+  position: absolute;
+  left: 0px;
+  width: 176px;
+  height: 650px;
+  box-sizing: border-box;
+}
+main > aside a:nth-child(1) {
+  position: absolute;
+  right: -3px;
+  top: 10px;
+}
+main > aside a:nth-child(2) {
+  position: absolute;
+  left: 10px;
+  top: 15px;
+}
+main > aside a:nth-child(3) {
+  position: absolute;
+  left: 3px;
+  top: 80px;
+}
+main > aside a:nth-child(4) {
+  position: relative;
+  top: 105px;
+  left: 3px;
+}
+main > section {
+  float: right;
+  width: 802px;
+  height: auto;
+  box-sizing: border-box;
+}
+
+main > section > article {
+  margin-top: 50px;
+}
+
+main > section table.basketList {
+  width: 762px;
+  height: 294px;
+  margin-left: 40px;
+  margin-top: 10px;
+  border-spacing: 0;
+}
+main > section table.basketList thead {
+  width: 762px;
+  height: 38px;
+  background-color: #d1dee2;
+}
+main > section table.basketList img {
+  width: 60px;
+  height: 60px;
+}
+main > section table.basketList td {
+  text-align: center;
+  color: #777777;
+  border-bottom: 1px solid #eeeeee;
+}
+main > section table.basketList td.none {
+  padding: 5px;
+  text-align: center;
+}
+main > section table.basketList td:nth-child(4) {
+  font-weight: bold;
+}
+main > section table.basketList td:nth-child(9) {
+  color: #111;
+  font-weight: bold;
+}
+
+main > section table.total {
+  border-top: 1px solid #111;
+  border-bottom: 1px solid #111;
+  margin-inline-start: 7px;
+  margin-inline-end: 7px;
+  margin-block-start: 5px;
+}
+main > section table.total th {
+  text-align: right;
+}
+main > section table.total td.totalPrice {
+  color: #960d1a;
+  font-weight: bold;
+}
+
+main > section > div:nth-child(1) {
+  padding-top: 30px;
+  padding-left: 40px;
+  border-bottom: 1px solid #c2c2c2;
+}
+main > section > div > span {
+  float: right;
+  font-weight: bold;
+  color: #91ba15;
+}
+main > section > div > a:nth-child(3) {
+  float: right;
+  margin-inline-end: 10px;
+}
+main > section > div > a:nth-child(3)::before {
+  content: url(/images/sub_page_nav_ico.gif);
+  display: inline-block;
+  transform: scale(1.5);
+  position: relative;
+  right: 5px;
+  bottom: 3px;
+}
+
+main > section > div article:nth-child(1) {
+  float: right;
+  width: 304.8px;
+  height: auto;
+  border: 1px solid #d7d7d7;
+  padding: 1px;
+  margin-top: 10px;
+}
+main > section > div article:nth-child(1) table {
+  width: 290.8px;
+  height: 229px;
+  border-top: 1px solid #111111;
+  border-bottom: 1px solid #111111;
+}
+
+main > section > div article:nth-child(2) {
+  float: left;
+  height: 440.75px;
+  width: 447px;
+  margin-top: 40px;
+}
+main > section > div article:nth-child(2) table {
+  border-top: 1px solid #960d1a;
+  border-spacing: none;
+  margin-left: 40px;
+}
+
+input {
+  border: 1px solid #d7d7d7;
+}
+main > section > div article:nth-child(2) table > tbody > tr.order {
+  height: 41px;
+  width: 105.19px;
+}
+main > section > div article:nth-child(2) table > tbody > tr.phone1 {
+  height: 41px;
+}
+main > section > div article:nth-child(2) table > tbody > tr.point {
+  height: 59px;
+}
+main > section > div article:nth-child(2) table > tbody > tr.point .btnUse {
+  border: 1px solid #767676;
+  background: #efefef;
+  float: right;
+  margin-right: 120px;
+  width: 52px;
+  height: 18px;
+  border-radius: 2.5px;
+  text-align: center;
+}
+main > section > div article:nth-child(2) table > tbody > tr.receiver {
+  height: 41px;
+}
+main > section > div article:nth-child(2) table > tbody > tr.phone2 {
+  height: 41px;
+}
+main > section > div article:nth-child(2) table > tbody > tr.address {
+  height: 85.75px;
+}
+main > section > div article:nth-child(2) table input[name="addr1"] {
+  display: block;
+  width: 322px;
+  margin: 2px 0;
+}
+main > section > div article:nth-child(2) table input[name="addr2"] {
+  display: block;
+  width: 322px;
+}
+main > section > div article:nth-child(2) img {
+  border: none;
+}
+
+main > section > div article:nth-child(2) table > tbody > tr.payment {
+  height: 44px;
+}
+main > section > div article:nth-child(2) table > tbody > tr.etc {
+  height: 87px;
+}
+
+main > section > div article:nth-child(2) td:nth-child(1) {
+  background: #f7f7f7;
+  width: 105.19px;
+  height: auto;
+  padding: 10px;
+  border-bottom: 3px solid #efefef;
+}
+main > section > div article:nth-child(2) td:nth-child(2) {
+  border-bottom: 3px solid #efefef;
+  padding-left: 5px;
+}
+h2 {
+  margin-top: -15px;
+  margin-bottom: 10px;
+}
+
+button[type="buttonSearch"] {
+  border: none;
+}
+.btn {
+  display: inline-block;
+  padding: 8px;
+  border: 1px solid #960d1a;
+  background-color: #960d1a;
+  text-align: center;
+  margin-top: 5px;
+  cursor: pointer;
+  color: #eee;
+}
+.btn:nth-child(2) {
+  width: 277.8px;
+  height: 20px;
+  margin: 5px;
+}
+textarea {
+  width: 322px;
+  height: 62px;
+  border: 1px solid #d7d7d7;
+}
+
+footer {
+  width: 980px;
+  height: 130px;
+  box-sizing: border-box;
+}
+footer p {
+  top: 15px;
+  position: relative;
+  float: right;
+  line-height: 18px;
+  font-size: 10.8px;
+}

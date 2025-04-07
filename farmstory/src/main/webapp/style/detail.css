@@ -1,0 +1,91 @@
+main > .container .side-content > a:nth-child(1) {
+  background: url(/static/images/sub_cate2_lnb1.png);
+}
+
+main > .container .side-content > a:nth-child(1):hover {
+  background: url(/static/images/sub_cate2_lnb1_ov.png);
+}
+
+main .content > .prod-info {
+  width: 100%;
+  height: auto;
+}
+
+main .content h3 {
+  font-size: 18px;
+  font-weight: bolder;
+  margin-bottom: 10px;
+}
+
+main .content > .prod-info > img {
+  float: left;
+}
+
+main .content > .prod-info table {
+  float: right;
+  border-top: 2px solid #e7e7e7;
+  border-collapse: collapse;
+}
+
+main .content > .prod-info table td {
+  padding: 5px 0;
+}
+
+main .content > .prod-info table td:nth-child(1) {
+  width: 90px;
+  font-weight: bold;
+}
+
+main .content > .prod-info table td > span {
+  color: #6a6a6a;
+}
+
+main .content > .prod-info .info-end {
+  border-bottom: 2px solid #e7e7e7;
+}
+
+main .content > .prod-info .info-btn {
+  width: 100px;
+  height: 40px;
+  margin-top: 5px;
+  border: none;
+}
+
+main .content > .prod-info .info-btn > a {
+  color: white;
+}
+
+main .content > .prod-info .to-basket {
+  margin-right: 5px;
+  background-color: #769b1b;
+}
+
+main .content > .prod-info .buy-now {
+  background-color: #960d1a;
+}
+
+main .content .delivery-info {
+  margin-bottom: 10px;
+}
+
+main .content .refund > table {
+  width: 100%;
+  border-top: 2px solid #e7e7e7;
+  border-bottom: 2px solid #e7e7e7;
+  border-collapse: collapse;
+}
+
+main .content .refund > table tr {
+}
+
+main .content .refund > table td {
+  border: 2px solid #e7e7e7;
+  border-left: none;
+  border-right: none;
+  padding: 20px;
+}
+
+main .content .refund > table td:nth-child(2) {
+  width: 70%;
+  border-left: 2px solid #e7e7e7;
+}

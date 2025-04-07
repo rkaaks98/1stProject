@@ -1,0 +1,32 @@
+/* footer */
+footer {
+  width: 100%;
+  height: auto;
+}
+
+footer > div {
+  margin: 0 auto;
+  width: 980px;
+  height: auto;
+  border-top: 1px solid #d1cab2;
+  box-sizing: border-box;
+}
+
+footer > div > img {
+  width: 174px;
+  height: 64px;
+  float: left;
+}
+
+footer > div > p {
+  height: 71px;
+  color: #7a7a7a;
+  display: block;
+  float: right;
+  font-size: 11px;
+  margin-top: 20px;
+}
+
+footer > div > p > span {
+  color: #a6a6a6;
+}

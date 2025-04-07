@@ -1,0 +1,64 @@
+main {
+  width: 100%;
+  height: auto;
+}
+
+main > .container {
+  width: 980px;
+  height: auto;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+main > .container .terms-area {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+main > .container .terms-area .title {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+main > .container .terms-area form {
+  width: 600px;
+  height: auto;
+  margin: 0 auto;
+  border-width: 2px 1px 1px 1px;
+  border-style: solid;
+  border-color: #111111;
+  padding: 10px;
+}
+
+main > .container .terms-area table {
+  width: 100%;
+  height: auto;
+  border-collapse: collapse;
+}
+
+#terms {
+  width: 580px;
+  height: 200px;
+  resize: none;
+  background-color: #f7f7f7;
+  border: #e4eaec;
+  box-sizing: border-box;
+  padding: 2px;
+  overflow: auto;
+}
+
+main > .container .btn-area {
+  margin: 0 auto;
+  width: 622px;
+  height: 70px;
+}
+
+main > .container .btn-area > button {
+  float: right;
+  margin-left: 10px;
+  width: 45px;
+  height: 30px;
+  background-color: white;
+  border: 1px solid #bebebe;
+}

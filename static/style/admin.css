@@ -1,0 +1,262 @@
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Noto+Sans+KR:wght@100..900&display=swap");
+/* 스타일 초기화 */
+* {
+  margin: 0;
+  padding: 0;
+  font: normal 12px "noto sans koeran";
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #111;
+}
+
+input,
+textarea {
+    outline: none;
+    resize: none;
+}
+
+select {
+  -webkit-appearance:none; /* 크롬 화살표 없애기 */
+  -moz-appearance:none; /* 파이어폭스 화살표 없애기 */
+  appearance:none; /* 화살표 없애기 */
+  display: inline-block;
+  border: 1px solid gray;
+  width: 7%;
+  background-color: #d3d3d3;
+  text-align: center;
+}
+
+#container {
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+}
+
+/* 헤더 */
+header {
+  width: 980px;
+  height: 60px;
+  background-image: url('/static/images/admin/admin_bg.jpg');
+  box-sizing: border-box;
+  padding: 12px;
+}
+header > p {
+  float: right;
+}
+header > p > a {
+  color: #fff;
+}
+
+/* 메인 */
+main {
+  width: 980px;
+  height: 658px;
+  overflow: hidden;
+}
+
+main>aside{
+  float: left;
+  width: 176px;
+  height: 400px;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+#manu h3 {
+  padding: 5px 20px;
+  border-radius: 20px;
+  background-color: rgb(229, 229, 229);
+  border: 1px solid rgb(204, 204, 204);
+  font-size: 14px;
+}
+
+#manu ul {
+  padding: 16px;
+  box-sizing: border-box;
+}
+#manu ul > li {
+  line-height: 22px;
+  margin-top: 10px;
+}
+
+#manu ul > li.on > span {
+  font-weight: bold;
+}
+
+#manu ul > li > ol {
+  color: #111;
+  text-indent: 10px;
+}
+#manu ul > li > ol > li {
+  line-height: 22px;
+}
+#manu ul > li > ol > li::before {
+  content: "ㄴ";
+  margin-right: 4px;
+}
+
+#manu ol > li > a:hover {
+  text-decoration: underline;
+}
+
+/* 메인 공통 */
+main>section{
+    width: 804px;
+    height: 658px;
+    margin-top: 5px;
+    overflow: hidden;
+    float: right;
+}
+
+main > section > nav > h3 {
+    padding-top: 8px;
+    font-size: 17px;
+    font-weight: bold;
+    color: #3f3f3f;
+}
+
+main > section > article > h3 {
+    margin: 6px 0;
+}
+
+main > section > article > h3 > .more {
+    float: right;
+}
+
+main > section > article table {
+    width: 100%;
+    height: auto;
+    border-collapse: collapse;
+    border-spacing: 0;
+    border-top: 2px solid #333;
+}
+
+main  > section > article table tr {
+    border-bottom: 1px dotted #999;
+}
+
+main  > section > article table tr > th {
+    padding: 12px;
+    background-color: #fff;
+}
+
+main  > section > article table tr > td {
+    padding: 12px;
+    text-align: center;
+}
+
+main>section>article{
+    width: 784px;
+    height: 193px;
+    box-sizing: border-box;
+    margin-top: 12px;
+}
+
+/* 회원목록 */
+#orderList p:nth-of-type(1){
+    text-align: left;
+    padding: 10px;
+}
+
+/* 주문목록 */
+#orderList p:nth-of-type(2){
+  padding: 10px;
+  text-align: center;
+}
+
+#userList p{
+  text-align: center;
+}
+
+/* 상품 등록 및 목록 */
+#productList .thumb {
+  width: 60px;
+}
+
+#productList p{
+  padding: 10px;
+}
+
+#productList p:nth-of-type(2){
+  padding: 10px;
+  text-align: center;
+}
+
+main> section .productRegister {
+  float: right;            
+}
+main> section .productRegister {
+  padding: 6px 12px;            
+  border-radius: 20px;
+  border: 1px solid #ccc;
+}
+main> section .productRegister:hover {
+  background-color: #ccc;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+#productRegister table tr > td {
+  text-align: left; 
+}
+
+#productRegister table tr > td:first-child {
+  width: 20%;
+}
+
+#productRegister table tr > td > label {
+  margin-right: 16px;
+}
+#productRegister table tr > td > p {
+  margin-bottom: 8px;
+}
+#productRegister table tr > td > p > span {
+  display: block;
+  margin-bottom: 2px;
+}
+
+#productRegister form > p {
+  margin: 12px 0;
+  text-align: center;
+}
+
+#productRegister form .btnCancel {
+  padding: 6px 12px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+}
+
+#productRegister form input[type=submit] {
+  padding: 6px 12px;            
+  border-radius: 20px;
+  border: 1px solid #ccc;
+}
+
+#productRegister form input[type=submit]:hover {
+  background-color: #ccc;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+/* 푸터 */
+footer {
+    width: 980px;
+    height: 41px;
+    padding: 12px;
+    background-image: url('/static/images/admin/admin_bg.jpg');
+    box-sizing: border-box;
+}
+
+footer > p {
+    color: #999;
+}
+footer >p>span{
+    float: right;
+}

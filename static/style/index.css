@@ -1,0 +1,312 @@
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Noto+Sans+KR:wght@100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font: normal 12px "noto sans koeran";
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #111;
+}
+
+input,
+textarea {
+  outline: none;
+}
+
+#wrapper {
+  width: 100%;
+  height: 100%;
+}
+
+/*main*/
+#wrapper > main {
+  width: 100%;
+  height: auto;
+}
+
+/*main > .banner*/
+main > .banner {
+  width: 980px;
+  height: 100%;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+main > .banner .banner-content {
+  display: inline-block;
+  position: relative;
+  height: 310px;
+}
+
+main > .banner .banner-content > a:nth-child(1) > img:nth-child(1) {
+  position: absolute;
+  z-index: 10;
+  top: 43px;
+  left: 43px;
+}
+
+main > .banner .banner-content > a:nth-child(1) > img:nth-child(2) {
+  width: 100%;
+  height: 100%;
+}
+
+main > .banner .banner-content > a:nth-child(2) > img:nth-child(1) {
+  height: 100%;
+  position: absolute;
+  z-index: 10;
+  top: 0%;
+  right: 0%;
+}
+
+main > .banner .banner-content > a:nth-child(2) > img:nth-child(2) {
+  position: absolute;
+  z-index: 11;
+  top: 35px;
+  right: 25px;
+}
+
+main > .banner .banner-content > a:nth-child(2) > img:nth-child(3) {
+  position: absolute;
+  z-index: 11;
+  top: 10px;
+  right: 5px;
+}
+
+main > .banner .banner-content > a:nth-child(2) > img:nth-child(4) {
+  position: absolute;
+  z-index: 11;
+  bottom: 5px;
+  right: 25px;
+}
+
+/* main > .shopping */
+
+main > .shopping {
+  width: 980px;
+  height: auto;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+main > .shopping > div > img {
+  margin-bottom: 12px;
+}
+
+main > .shopping ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+main > .shopping li {
+  display: inline-block;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+  width: 150px;
+  height: 235px;
+  text-align: center;
+  line-height: 30px;
+}
+
+main > .shopping .items .category {
+  color: gray;
+}
+
+main > .shopping .items > ul > li > a > span {
+  color: red;
+}
+
+main > .shopping .items > ul > li > a > .current-price {
+  font-weight: bolder;
+}
+
+/* main > .small-banner */
+main > .small-banner {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+main > .small-banner > article {
+  width: 980px;
+  height: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+main > .small-banner > article > div:nth-child(1) {
+  float: left;
+  position: relative;
+}
+
+main > .small-banner > article > div:nth-child(1) img:nth-child(2) {
+  position: absolute;
+  left: 18px;
+  top: 18px;
+  z-index: 10;
+}
+
+main > .small-banner > article > div:nth-child(2) {
+  float: right;
+  position: relative;
+}
+
+main > .small-banner > article > div:nth-child(2) img:nth-child(2) {
+  position: absolute;
+  left: 18px;
+  top: 18px;
+  z-index: 10;
+}
+
+/* main > .latest */
+main > .latest {
+  display: flex;
+  justify-content: space-around;
+  width: 980px;
+  height: auto;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+main > .latest > article {
+  width: 325px;
+  height: 100%;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+main > .latest > article > div:nth-child(1) {
+  margin-bottom: 20px;
+}
+
+main > .latest div:nth-child(2) {
+  height: auto;
+  overflow: hidden;
+}
+
+main > .latest div:nth-child(2) > img {
+  float: left;
+}
+
+main > .latest div:nth-child(2) > table {
+  float: right;
+}
+
+main > .latest table td:nth-child(1) {
+  display: inline-block;
+  width: 150px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  color: #6a6a6a;
+  line-height: 10px;
+}
+
+main > .latest table td a {
+  color: #6a6a6a;
+}
+
+main > .latest table td a::before {
+  content: url(/images/main_latest_icon.gif);
+}
+
+main > .latest table td:nth-child(2) {
+  font-size: 11px;
+  color: #6a6a6a;
+}
+
+/* main > .info */
+main > .info {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 10px;
+}
+
+main > .info > article {
+  border-top: 2px solid #756c65;
+  display: flex;
+  justify-content: space-evenly;
+  width: 980px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+main > .info .sub2 > img:nth-child(1) {
+  margin: 18px auto;
+}
+
+main > .info .customer-service {
+  width: 390px;
+  height: 155px;
+}
+
+main > .info .customer-service > div:nth-of-type(1) {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 18px;
+}
+
+main > .info .customer-service > div:nth-of-type(1) > p {
+  color: #6a6a6a;
+}
+
+main > .info .customer-service .btns {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+main > .info .bank-info {
+  width: 230px;
+  height: 155px;
+  border-left: 1px solid #d7d7d7;
+  box-sizing: border-box;
+}
+
+main > .info .bank-info > img:nth-child(1) {
+  margin-left: 18px;
+}
+
+main > .info .bank-info p {
+  margin-left: 18px;
+  color: #6a6a6a;
+  line-height: 18px;
+}
+
+main > .info .notices {
+  width: 365px;
+  height: 155px;
+  border-left: 1px solid #d7d7d7;
+  box-sizing: border-box;
+}
+
+main > .info .notices > img:nth-child(1) {
+  margin-left: 18px;
+}
+
+main > .info .notices table {
+  margin-left: 18px;
+}
+
+main > .info .notices table tr {
+  color: #6a6a6a;
+}
+
+main > .info .notices table td::before {
+  content: "•";
+}
+
+main > .info .notices table td:nth-child(1) {
+  display: inline-block;
+  width: 200px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  line-height: 10px;
+}

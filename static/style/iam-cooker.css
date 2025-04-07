@@ -1,0 +1,92 @@
+main > .container .side-content > a:nth-child(1) {
+  background: url(/static/images/sub_cate5_lnb1.png);
+}
+
+main > .container .side-content > a:nth-child(1):hover {
+  background: url(/static/images/sub_cate5_lnb1_ov.png);
+}
+
+main > .container .side-content > a:nth-child(2) {
+  background: url(/static/images/sub_cate5_lnb2.png);
+}
+
+main > .container .side-content > a:nth-child(2):hover {
+  background: url(/static/images/sub_cate5_lnb2_ov.png);
+}
+
+main > .container .side-content > a:nth-child(3) {
+  background: url(/static/images/sub_cate5_lnb3.png);
+}
+
+main > .container .side-content > a:nth-child(3):hover {
+  background: url(/static/images/sub_cate5_lnb3_ov.png);
+}
+
+main > .container .side-content > a:nth-child(4) {
+  background: url(/static/images/sub_cate5_lnb4.png);
+}
+
+main > .container .side-content > a:nth-child(4):hover {
+  background: url(/static/images/sub_cate5_lnb4_ov.png);
+}
+
+main > .container .side-content > a:nth-child(5) {
+  background: url(/static/images/sub_cate5_lnb5.png);
+}
+
+main > .container .side-content > a:nth-child(5):hover {
+  background: url(/static/images/sub_cate5_lnb5_ov.png);
+}
+
+main .content h3 {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+main .content table {
+  width: 100%;
+  height: auto;
+  border-collapse: collapse;
+  border-top: 2px solid #000;
+  margin-bottom: 10px;
+}
+
+main .content table tr td {
+  border-top: 1px solid #e9e9e9;
+  border-bottom: 1px solid #e9e9e9;
+  padding: 10px;
+}
+
+main .content table td:nth-child(1) {
+  width: 20%;
+  height: auto;
+  text-align: center;
+  padding: 10px;
+  background-color: #f5f8f9;
+}
+
+#cooker-title {
+  width: 100%;
+  height: 100%;
+  border: none;
+  text-indent: 10px;
+}
+
+#cooker-content {
+  width: 100%;
+  height: 300px;
+  resize: none;
+  border: none;
+}
+
+main .content .btn {
+  border: 1px solid #d7d7d7;
+  float: right;
+}
+
+main .content > form .btn {
+  width: 45px;
+  height: 35px;
+  background-color: white;
+  margin-left: 5px;
+}

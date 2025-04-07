@@ -1,0 +1,137 @@
+/*초기화*/
+* {
+  margin: 0;
+  padding: 0;
+}
+ul,
+ol {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #111;
+}
+input {
+  outline: none;
+}
+
+#wrapper {
+  width: 980px;
+  height: 1110px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+#wrapper > main {
+  width: 100%;
+  height: auto;
+}
+main {
+  position: relative;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+main > .background {
+  width: 980px;
+  height: 184px;
+  top: 142px;
+  left: 470px;
+}
+main > .background div:nth-child(2) {
+  position: absolute;
+  top: 140px;
+}
+main > .background div:nth-child(1) {
+  position: relative;
+}
+main > aside {
+  position: absolute;
+  left: 0px;
+  width: 176px;
+  height: 650px;
+  box-sizing: border-box;
+}
+main > aside a:nth-child(1) {
+  position: absolute;
+  right: -3px;
+  top: 10px;
+}
+main > aside a:nth-child(2) {
+  position: absolute;
+  left: 10px;
+  top: 15px;
+}
+main > aside a:nth-child(3) {
+  position: absolute;
+  left: 2px;
+  top: 105px;
+  z-index: 1;
+}
+main > aside a:nth-child(4) {
+  position: relative;
+  top: 135px;
+  left: 2px;
+  z-index: 1;
+}
+main > aside a:nth-child(5) {
+  position: relative;
+  top: 135px;
+  left: 2px;
+  z-index: 1;
+}
+main > aside a:nth-child(6) {
+  position: relative;
+  top: 18px;
+  left: 1px;
+}
+
+main > section > div {
+  width: 802px;
+  padding-top: 30px;
+  padding-left: 30px;
+  border-bottom: 1px solid #c2c2c2;
+  margin-inline-start: 208px;
+}
+main > section > div > a:nth-child(1) {
+  margin-inline-start: -30px;
+}
+main > section > div > span {
+  float: right;
+  font-weight: bold;
+  color: #91ba15;
+  margin-inline-end: 70px;
+}
+main > section > div > a:nth-child(3) {
+  float: right;
+  margin-inline-end: 10px;
+}
+main > section > div > a:nth-child(3)::before {
+  content: url(/images/sub_page_nav_ico.gif);
+  display: inline-block;
+  transform: scale(1.5);
+  position: relative;
+  right: 5px;
+  bottom: 3px;
+}
+main > section > article {
+  float: right;
+  width: 802px;
+  height: 650px;
+}
+main > section > article p {
+  margin-top: 40px;
+  margin-left: 40px;
+}
+
+footer {
+  width: 980px;
+  height: 130px;
+  box-sizing: border-box;
+}
+footer p {
+  top: 15px;
+  position: relative;
+  float: right;
+  line-height: 18px;
+  font-size: 10.8px;
+}

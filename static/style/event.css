@@ -1,0 +1,200 @@
+/*초기화*/
+* {
+  margin: 0;
+  padding: 0;
+}
+ul,
+ol {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #111;
+}
+input {
+  outline: none;
+}
+
+#wrapper {
+  width: 980px;
+  height: 1110px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+main {
+  position: relative;
+  width: 980px;
+  height: 900px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+main > section {
+  width: auto;
+  height: 747px;
+}
+main > .background {
+  width: 980px;
+  height: 184px;
+  top: 142px;
+  left: 470px;
+}
+main > .background div:nth-child(2) {
+  position: absolute;
+  top: 140px;
+}
+main > .background div:nth-child(1) {
+  position: relative;
+}
+main > aside {
+  position: absolute;
+  left: 0px;
+  width: 176px;
+  height: 650px;
+  box-sizing: border-box;
+}
+main > aside a:nth-child(1) {
+  position: absolute;
+  right: -2px;
+  top: 10px;
+}
+main > aside a:nth-child(2) {
+  position: absolute;
+  left: 10px;
+  top: 15px;
+}
+main > aside a:nth-child(3) {
+  position: absolute;
+  right: 0px;
+  top: 105px;
+  z-index: 1;
+}
+main > aside a:nth-child(4) {
+  position: relative;
+  top: 80px;
+}
+
+main > section > div {
+  width: 802px;
+  padding-top: 30px;
+  padding-left: 30px;
+  border-bottom: 1px solid #c2c2c2;
+  margin-inline-start: 208px;
+}
+main > section > div > a:nth-child(1) {
+  margin-inline-start: -30px;
+}
+main > section > div > span {
+  float: right;
+  font-weight: bold;
+  color: #91ba15;
+  margin-inline-end: 70px;
+}
+main > section > div > a:nth-child(3) {
+  float: right;
+  margin-inline-end: 10px;
+}
+main > section > div > a:nth-child(3)::before {
+  content: url(/images/sub_page_nav_ico.gif);
+  display: inline-block;
+  transform: scale(1.5);
+  position: relative;
+  right: 5px;
+  bottom: 3px;
+}
+main > section > article {
+  position: absolute;
+  top: 280px;
+  left: 210px;
+}
+table {
+  width: 765px;
+  height: 535px;
+  border-collapse: collapse;
+  margin: 20px auto;
+}
+
+td {
+  border: 1px solid #c2c2c2;
+  padding: 10px;
+  vertical-align: top;
+  text-align: right;
+  position: relative;
+}
+th {
+  border: 1px solid #c2c2c2;
+  text-align: center;
+}
+.controls {
+  margin-bottom: 10px;
+}
+.controls > button:nth-child(2) {
+  width: 60px;
+  height: 40px;
+  margin-right: 10px;
+  background-color: #838383;
+  color: white;
+  border-radius: 8px;
+  position: absolute;
+  right: 90px;
+}
+.controls > button:nth-child(3) {
+  background-color: #3d3d3d;
+  color: white;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  right: 40px;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+.controls > button:nth-child(4) {
+  background-color: #3d3d3d;
+  color: white;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  right: 0px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+button {
+  padding: 5px 10px;
+  font-size: 14px;
+  cursor: pointer;
+  border: none;
+}
+.today {
+  background-color: rgb(255, 255, 182);
+  font-weight: bold;
+}
+.holiday-box {
+  display: inline-block;
+  text-align: left;
+  width: 95px;
+  background-color: red;
+  color: white;
+  padding: 2px 5px;
+  font-size: 12px;
+  border-radius: 5px;
+  margin-left: 5px;
+  position: absolute;
+  top: 25px;
+  right: 1px;
+}
+#monthYear {
+  font-size: 25px;
+}
+
+footer {
+  width: 980px;
+  height: 130px;
+  box-sizing: border-box;
+}
+footer p {
+  top: 15px;
+  position: relative;
+  float: right;
+  line-height: 18px;
+  font-size: 10.8px;
+}

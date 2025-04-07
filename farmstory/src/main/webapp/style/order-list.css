@@ -1,0 +1,192 @@
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Noto+Sans+KR:wght@100..900&display=swap");
+     /* 초기화 */
+     * {
+      margin: 0;
+      padding: 0;
+      font: normal 12px '고딕';
+  }
+
+  ul, ol {list-style: none;}
+  a {text-decoration: none; color: #111;}
+  input, textarea {outline: none;}
+
+  #wrapper {
+      width: 980px;
+      height: auto;
+      margin: 0 auto;
+  }
+
+/*=====================================================================*/
+
+  /*메인*/
+  main {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+
+  main .background {
+    width: 980px;
+    height: 184px;
+    margin-bottom: 22px;
+}
+  main .background a:nth-of-type(2) {
+    position: relative;
+    bottom: 50px;
+    left: 15px;
+  }
+  main {
+      width: 980px;
+      height: auto;
+  }
+  main .side {
+      min-width: 176px;
+      height: 650px;
+      float: left;
+      border-right: 1px solid #999 ;
+      
+  }
+  main .side h1 {
+      margin-left: 10px;
+  }
+  main .side article {
+      width: 175px;
+      height: 233px;
+      background-image: url('/farmstory/images/sub_aside_bg_lnb.png');
+      padding-top: 20px;
+  }
+  main .side article ul li:nth-of-type(1):hover {
+    background-image: url('/farmstory/images/myinfo/myinfo_menu1_ov.png');
+  }
+  main .side article ul li:nth-of-type(2):hover {
+    background-image: url('/farmstory/images/myinfo/myinfo_menu2_ov.png');
+  }
+  main .side article ul li:nth-of-type(3):hover {
+    background-image: url('/farmstory/images/myinfo/myinfo_menu3_ov.png');
+  }
+  
+  
+  
+  main .order {
+      width: 762px;
+      height: 40px;
+      float: right;
+      margin-top: 20px;
+      border-bottom: 1px solid #c4c4c4;
+      margin-bottom: 50px;
+  }
+  
+  main .order p {
+      float: right;
+      position: relative;
+      top: -20px;
+      color: #adadad;
+      font-weight: bold;
+  }
+  main .order p:nth-of-type(1) {
+      color: rgb(133, 197, 37);
+  }
+  main .whole {
+      width: 762px;
+      height: auto;
+      float: right;
+      text-align: center;
+  }
+  main .whole h1 {
+      text-align: left;
+      font-size: 13px;
+      margin-bottom: 20px;
+  }
+  main .whole table {
+      width: 762px;
+      height: auto;
+      border-collapse: collapse;
+      border-top: 4px solid #D1DEE2;
+      border-bottom: 3px solid rgb(187, 187, 187);
+      margin-bottom: 15px;
+      table-layout: fixed;
+  }
+  main .whole table tr {
+      height: 85px;
+      border-top: 1px solid rgb(187, 187, 187);
+  }
+  main .whole table tr:nth-of-type(1) {
+      height: 41px;
+      background-color: #E5ECEF; 
+  }
+  main .whole table tr:nth-of-type(1) th:nth-of-type(1) {
+      width: 60px; 
+  }
+  main .whole table tr:nth-of-type(1) th:nth-of-type(2) {
+      width: 101px; 
+  }
+  main .whole table tr:nth-of-type(1) th:nth-of-type(3) {
+      width: 89px; 
+  }
+  main .whole table tr:nth-of-type(1) th:nth-of-type(4) {
+      width: 74px; 
+  }
+  main .whole table tr:nth-of-type(1) th:nth-of-type(5) {
+      width: 32px; 
+  }
+  main .whole table tr:nth-of-type(1) th:nth-of-type(6) {
+      width: 81px; 
+  }
+  main .whole table tr:nth-of-type(1) th:nth-of-type(7) {
+      width: 70px; 
+  }
+  main .whole table tr:nth-of-type(1) th:nth-of-type(8) {
+      width: 153px; 
+  }
+  main .whole table tr:nth-of-type(1) th:nth-of-type(9) {
+      width: 76px; 
+  }
+  
+  main .whole table tr:nth-of-type(2) {
+      height: 41px;
+      font-weight: bold;
+      position: relative;
+      left: 40%;
+      width: 100%; 
+      white-space: nowrap;
+  }
+  main .whole table tr:nth-of-type(2) td {
+      font-weight: bold;
+  }
+  
+  main .whole table tr img {
+      width: 60px;
+  }
+  main .whole table tr:last-of-type td {
+      margin-bottom: 20px;
+  }
+  main .whole a {
+      display: flex;
+      width: 60px;
+      height: 30px;
+      justify-content: center;
+      align-items: center;
+      background-color: #960D1A;
+      color: white;
+  }
+  main .page {
+      text-align: center;
+      position: absolute ;
+      left: 53%;
+      top: 660px;
+  }
+  main .page a {
+      display: inline-block;
+      padding: 8px;
+      border: 1px solid #d7d7d7;
+      background: #f2f2f2;
+  }
+  main .page a:nth-of-type(2) {
+      background: #888888;
+      color: white;
+  }
+
+/*=====================================================================*/
+
+

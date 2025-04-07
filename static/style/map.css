@@ -1,0 +1,26 @@
+main .container .content-area .content > p {
+  color: #666666;
+  line-height: 25px;
+}
+
+main .container .content-area .content > h4 {
+  font-size: 16px;
+  font-weight: bolder;
+  color: #91ba23;
+}
+
+main > .container .side-content > a:nth-child(1) {
+  background: url(/static/images/sub_cate1_lnb1.png);
+}
+
+main > .container .side-content > a:nth-child(2) {
+  background: url(/static/images/sub_cate1_lnb2.png);
+}
+
+main > .container .side-content > a:nth-child(1):hover {
+  background: url(/static/images/sub_cate1_lnb1_ov.png);
+}
+
+main > .container .side-content > a:nth-child(2):hover {
+  background: url(/static/images/sub_cate1_lnb2_ov.png);
+}

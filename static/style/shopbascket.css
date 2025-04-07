@@ -1,0 +1,215 @@
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Noto+Sans+KR:wght@100..900&display=swap");
+/* 초기화 */
+* {
+  margin: 0;
+  padding: 0;
+  font: normal 12px "noto sans koeran";
+}
+
+ul,
+ol {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #111;
+}
+input,
+textarea {
+  outline: none;
+}
+
+#wrapper {
+  width: 980px;
+  height: auto;
+  margin: 0 auto;
+}
+
+
+
+/*=====================================================================*/
+
+/*메인*/
+
+main {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+main .background {
+  width: 980px;
+  height: 184px;
+  margin-bottom: 22px;
+}
+main .background a:nth-of-type(2) {
+  position: relative;
+  bottom: 50px;
+  left: 15px;
+}
+main {
+  width: 980px;
+  height: auto;
+}
+main .side {
+  min-width: 176px;
+  height: 650px;
+  float: left;
+  border-right: 1px solid #999 ;
+  
+}
+main .side h1 {
+  margin-left: 10px;
+}
+main .side article {
+  width: 175px;
+  height: 233px;
+  background-image: url('/static/images/sub_aside_bg_lnb.png');
+  padding-top: 20px;
+}
+main .side article ul li:nth-of-type(1):hover {
+  background-image: url('/static/images/myinfo/myinfo_menu1_ov.png');
+}
+main .side article ul li:nth-of-type(2):hover {
+  background-image: url('/static/images/myinfo/myinfo_menu2_ov.png');
+}
+main .side article ul li:nth-of-type(3):hover {
+  background-image: url('/static/images/myinfo/myinfo_menu3_ov.png');
+}
+
+
+
+main .basket {
+  width: 762px;
+  height: 40px;
+  float: right;
+  margin-top: 20px;
+  border-bottom: 1px solid #c4c4c4;
+  margin-bottom: 50px;
+}
+main .basket h1 {
+  float: left;
+}
+main .basket p {
+  float: right;
+  position: relative;
+  top: 10px;
+  color: #adadad;
+  font-weight: bold;
+}
+main .basket p:nth-of-type(1) {
+  color: rgb(133, 197, 37);
+}
+main .whole {
+  width: 762px;
+  height: auto;
+  float: right;
+  text-align: center;
+}
+main .whole h1 {
+  text-align: left;
+  font-size: 13px;
+  margin-bottom: 20px;
+}
+main .whole table {
+  width: 762px;
+  height: auto;
+  border-collapse: collapse;
+  border-top: 4px solid #D1DEE2;
+  border-bottom: 3px solid rgb(187, 187, 187);
+  margin-bottom: 15px;
+  table-layout: fixed;
+}
+main .whole table tr {
+  height: 85px;
+  border-top: 1px solid rgb(187, 187, 187);
+}
+main .whole table tr:nth-of-type(1) {
+  height: 38px;
+  background-color: #E5ECEF; 
+}
+main .whole table tr:nth-of-type(1) th:nth-of-type(1) {
+  width: 76px; 
+}
+
+main .whole table tr:nth-of-type(2) {
+  height: 38px;
+  color: #c0c0c0;
+  position: relative;
+  left: 40%;
+  width: 100%; 
+  white-space: nowrap;
+}
+
+main .whole table tr img {
+  width: 60px;
+}
+
+main .whole table tr:last-of-type td {
+  margin-bottom: 20px;
+}
+main .whole a {
+  display: flex;
+  width: 60px;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+  background-color: #960D1A;
+  color: white;
+}
+
+
+
+
+
+
+main .total {
+  float: right;
+  width: 304px;
+  height: auto;
+  border: 3px solid #d7d7d7;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+
+main .total h3 {
+  width: 100%;
+  text-align: center;
+  border-top: 3px solid black;
+  font-size: 15px;
+}
+main .total table {
+  width: 300px;
+  height: auto;
+  padding: 10px;
+  border-bottom: 2px solid black;
+  margin-bottom: 15px;
+}
+main .total tr {
+  text-align: left;
+  width: 286px;
+  height: 26px;
+}
+main .total tr td {
+  font-size: 13px;
+  font-weight: bold ;
+}
+main .total tr:last-of-type td:last-of-type {
+  color: #C20A0A;
+}
+main .total a {
+  display: flex;
+  width: 100%;
+  height: 37px;
+  justify-content: center;
+  align-items: center;
+  background-color: #960D1A;
+  color: white;
+  font-size: 13px;
+}
+
+/*=====================================================================*/
+

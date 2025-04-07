@@ -1,0 +1,60 @@
+/* 메인 */
+main {
+  width: 980px;
+  height: 658px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+main > aside {
+  float: left;
+  width: 176px;
+  height: 400px;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+main > aside > h3 {
+  padding: 5px 20px;
+  border-radius: 20px;
+  background-color: rgb(229, 229, 229);
+  border: 1px solid rgb(204, 204, 204);
+  font-size: 14px;
+}
+
+main > aside > ul {
+  padding: 16px;
+  box-sizing: border-box;
+}
+main > aside > ul > li {
+  line-height: 22px;
+  margin-top: 10px;
+}
+
+main > aside > ul > li.on > span {
+  font-weight: bold;
+}
+
+main > aside > ul > li > ol {
+  color: #111;
+  text-indent: 10px;
+}
+main > aside > ul > li > ol > li {
+  line-height: 22px;
+}
+main > aside > ul > li > ol > li::before {
+  content: "ㄴ";
+  margin-right: 4px;
+}
+
+main > aside ol > li > a:hover {
+  text-decoration: underline;
+}
+
+main > section {
+  width: 804px;
+  height: 658px;
+  margin-top: 5px;
+  overflow: hidden;
+  float: right;
+}
